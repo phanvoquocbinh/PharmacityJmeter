@@ -157,7 +157,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
         <hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Checkout" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Chekout] [Hệ thống nhà thuốc]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Chekout] [Hệ thống nhà thuốc]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -236,7 +236,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Going to the checkout page to check the </stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Checkout] [Buy Immediately]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Checkout] [Buy Immediately]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -272,7 +272,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Select the &quot;Mua ngay&quot; button</stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Checkout] [Estimate]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Checkout] [Estimate]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -335,7 +335,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Cart" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Cart] [Add to cart]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Cart] [Add to cart]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -367,7 +367,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Add to cart the product with sku P29470</stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Cart] [Remove Cart]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Cart] [Remove Cart]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -402,7 +402,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <intProp name="HTTPSampler.ipSourceType">0</intProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Cart] [Add to cart]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Cart] [Add to cart]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -441,7 +441,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Home Page" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [ExtraCare-Info]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [ExtraCare-Info]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
@@ -462,7 +462,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <intProp name="HTTPSampler.ipSourceType">0</intProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Home Page] [List Noti]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Home Page] [List Noti]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -492,7 +492,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Verify that can open link : https://www.pharmacity.vn/collection/deal-dinh-rinh-ngay?_rsc=ls3pq at good performance</stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Home Page] [Flashsale]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Home Page] [Flashsale]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -536,7 +536,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Product" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Product Detail] [Going to the product detail]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Product Detail] [Going to the product detail]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
@@ -565,7 +565,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
           </hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Profile" enabled="true"/>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Profile] [Lịch sử P-xu Vàng]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Profile] [Lịch sử P-xu Vàng]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -616,7 +616,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Going to the checkout page to check the </stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Profile] [Address]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Profile] [Address]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -899,7 +899,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Going to the profile page to check the address</stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Profile] [Lịch sử tư vấn thuốc]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Profile] [Lịch sử tư vấn thuốc]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -950,7 +950,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
               <stringProp name="TestPlan.comments">Going to the profile page to check the address</stringProp>
             </HTTPSamplerProxy>
             <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Profile] [Đơn thuốc của tôi]" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Profile] [Đơn thuốc của tôi]" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -1009,7 +1009,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="SEO Request" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[SEO] [HomePage]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [SEO] [HomePage]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -1055,7 +1055,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[SEO] [Blog Post]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [SEO] [Blog Post]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -1101,7 +1101,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[SEO] [Blog Bệnh]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [SEO] [Blog Bệnh]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -1154,7 +1154,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Slow Request (Without Login)" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [Access the Pharmacity Website]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [Access the Pharmacity Website]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1197,7 +1197,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that can open link : https://www.pharmacity.vn/ at good performance</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[DrugStore] [Hệ thống nhà thuốc list]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [DrugStore] [Hệ thống nhà thuốc list]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1219,7 +1219,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Home Page] [Get collection]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Home Page] [Get collection]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1241,7 +1241,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that can open link : https://www.pharmacity.vn/collection/deal-dinh-rinh-ngay?_rsc=ls3pq at good performance</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Home Page] [Brand]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [Home Page] [Brand]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -1320,7 +1320,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Fast Request (Without Login)" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P00002 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P00002 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1342,7 +1342,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P00002 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P00002 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1364,7 +1364,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P0019 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P0019 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1386,7 +1386,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P0019 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P0019 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1408,7 +1408,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P00010 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P00010 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1430,7 +1430,7 @@ log.info(&quot;REQ1 try #${t}, ok=${ok}&quot;)</stringProp>
             <stringProp name="TestPlan.comments">Verify that the &quot;Hệ thống nhà thuốc&quot; list is displayed normally</stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[HomePage] [P00010 - Image Product]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital Web/App] [HomePage] [P00010 - Image Product]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -1604,84 +1604,128 @@ import java.net.URL
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
+// -------- LẤY THÔNG TIN TỪ SAMPLE --------
 String statusCode   = prev.getResponseCode()
-String responseBody = prev.getResponseDataAsString()   // giữ UTF-8, không parse JSON
+String responseBody = prev.getResponseDataAsString()
+String sampleLabel  = prev.getSampleLabel()
+String sampleUrl    = prev.getUrlAsString()
+String respMsg      = prev.getResponseMessage()
+long   timeMs       = prev.getTime()
 
-// Chỉ gửi cảnh báo nếu KHÔNG phải 2xx
+// -------- HÀM LẤY DANH SÁCH WEBHOOK TỪ PROPS/ENV/VARS --------
+List&lt;String&gt; resolveWebhookList() {
+  def raw = props.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getProperty(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getenv(&apos;DISCORD_WEBHOOK&apos;) ?:
+            vars.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            &apos;&apos;
+  return raw.toString()
+           .split(/[,\r\n]+/)
+           .collect { it?.trim() }
+           .findAll { it }
+}
+
+// -------- CHỈ GỬI KHI KHÔNG PHẢI 2xx --------
 if (statusCode == null || !statusCode.startsWith(&quot;2&quot;)) {
   try {
-    def webhooks = [
-      &quot;https://discord.com/api/webhooks/1400011751889702953/u4GdXdepd62VcgQOcecCPeVkoa1NYWdqU_d0stqGCH0jUiMNIjaKapFmI7Wajp_YMhrW&quot;
-    ]
+    // ====== webhook: lấy từ props/env/vars ======
+    final List&lt;String&gt; webhooks = resolveWebhookList()
+    if (!webhooks || webhooks.isEmpty()) {
+      log.warn(&quot;⚠️ No DISCORD_WEBHOOK provided. Set via -JDISCORD_WEBHOOK, ENV, or JMeter variable.&quot;)
+      return
+    }
 
-    // ---------- format body: xuống dòng + indent 4 spaces (trừ { / }) ----------
-    final String PH = &quot;§COMMA§&quot;             // placeholder cho dấu phẩy trong metadata
+    // ====== THỜI GIAN THEO GIỜ VN ======
+    long endTs = prev.getEndTime()
+    def zid    = java.time.ZoneId.of(&quot;Asia/Ho_Chi_Minh&quot;)
+    def zEnd   = java.time.ZonedDateTime.ofInstant(java.time.Instant.ofEpochMilli(endTs), zid)
+    def fmtDT  = java.time.format.DateTimeFormatter.ofPattern(&quot;HH:mm:ss / dd-MM-yyyy &quot;)
+    String occurTime = zEnd.format(fmtDT)
+    String location  = zid.toString() // &quot;Asia/Ho_Chi_Minh&quot;
+
+    // ====== ĐỊNH DẠNG BODY ĐỂ DỄ ĐỌC TRÊN DISCORD ======
+    final String PH = &quot;§COMMA§&quot;     // placeholder cho dấu phẩy trong metadata
     String safeBody = responseBody ?: &quot;&quot;
 
-    // Bảo vệ block &quot;metadata&quot;: { ... } (đơn cấp) để không xuống dòng bên trong
+    // Bảo vệ block &quot;metadata&quot;: { ... } (đơn cấp)
     safeBody = safeBody.replaceAll(/(&quot;metadata&quot;\s*:\s*\{[^}]*\})/) { m -&gt; m[0].replace(&quot;,&quot;, PH) }
 
-    // Đưa {, } ra dòng riêng + xuống dòng sau dấu phẩy
+    // Xuống dòng sau dấu phẩy, đưa { } ra dòng riêng
     String formatted = safeBody
-      .replaceFirst(/^\s*\{/, &quot;{\n&quot;)        // { ở dòng riêng
-      .replaceAll(&quot;,\\s*&quot;, &quot;,\n&quot;)           // xuống dòng sau dấu phẩy
-      .replaceFirst(/}\s*$/, &quot;\n}&quot;)         // } ở dòng riêng
-      .replace(PH, &quot;,&quot;)                     // khôi phục metadata
+      .replaceFirst(/^\s*\{/, &quot;{\n&quot;)
+      .replaceAll(&quot;,\\s*&quot;, &quot;,\n&quot;)
+      .replaceFirst(/}\s*$/, &quot;\n}&quot;)
+      .replace(PH, &quot;,&quot;)
 
-    // Thụt lề 4 spaces mọi dòng, ngoại trừ dòng chỉ có { hoặc }
+    // Thụt lề 4 spaces mọi dòng, trừ dòng chỉ có { hoặc }
     def sb = new StringBuilder()
     for (String ln : formatted.split(&quot;\\r?\\n&quot;)) {
       String t = ln.trim()
-      if (t == &quot;{&quot; || t == &quot;}&quot;) sb.append(t)
-      else sb.append(&quot;    &quot;).append(ln)
+      if (t == &quot;{&quot; || t == &quot;}&quot;) sb.append(t) else sb.append(&quot;    &quot;).append(ln)
       sb.append(&quot;\n&quot;)
     }
     formatted = sb.toString().trim()
 
-    // Tránh phá code block/mention
+    // Tránh phá code block/mention &amp; cắt bớt nếu dài
     def safeTrim = { String s, int max -&gt;
       s = (s ?: &quot;&quot;).replace(&quot;```&quot;,&quot;`\u200b``&quot;).replace(&quot;@&quot;,&quot;@\u200b&quot;)
       return s.length() &gt; max ? s.substring(0, max) + &quot; …(truncated)&quot; : s
     }
-
     String bodyBlock = &quot;```json\n&quot; + safeTrim(formatted, 1800) + &quot;\n```&quot;
-    // ---------------------------------------------------------------------------
 
-    def payload = [
-      username: &quot;JMeter Alert Bot&quot;,
-      content: &quot;&quot;&quot;🚨 **JMeter Alert:** Test Failed
-**Sampler:** ${prev.getSampleLabel()}
-**URL:** ${prev.getUrlAsString()}
+    // ====== NỘI DUNG THÔNG BÁO ======
+    def content = &quot;&quot;&quot;🚨 **JMeter Alert:** Test Failed
+**Sampler:** ${sampleLabel}
+**URL:** ${sampleUrl}
 **Status Code:** ${statusCode}
-**Response Message:** ${prev.getResponseMessage()}
-**Time Response:** ${prev.getTime()} ms
+**Response Message:** ${respMsg}
+
+**Occur Time:** ${occurTime}
+**Location:** ${location}
+**Response Time:** ${timeMs} ms
 
 **Response Body:**
 ${bodyBlock}&quot;&quot;&quot;
+
+    def payload = [
+      username: &quot;JMeter Alert Bot&quot;,
+      content : content
     ]
+    byte[] jsonBytes = JsonOutput.toJson(payload).getBytes(&quot;UTF-8&quot;)
 
+    // ====== GỬI TỚI TỪNG WEBHOOK ======
     for (String webhookUrl : webhooks) {
-      HttpURLConnection conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
-      conn.setRequestMethod(&quot;POST&quot;)
-      conn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; charset=UTF-8&quot;)
-      conn.setDoOutput(true)
-      conn.getOutputStream().write(JsonOutput.toJson(payload).getBytes(&quot;UTF-8&quot;))
+      if (!(webhookUrl.toLowerCase().startsWith(&quot;http&quot;))) {
+        log.warn(&quot;⚠️ Skip invalid webhook: ${webhookUrl}&quot;)
+        continue
+      }
+      HttpURLConnection conn = null
+      try {
+        conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
+        conn.setRequestMethod(&quot;POST&quot;)
+        conn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; charset=UTF-8&quot;)
+        conn.setDoOutput(true)
+        conn.getOutputStream().withCloseable { os -&gt; os.write(jsonBytes); os.flush() }
 
-      int discordCode = conn.getResponseCode()
-      if (discordCode == 429) {
-        log.error(&quot;❌ Discord rate limit&quot;)
-      } else if (discordCode &gt;= 400) {
-        // Log thêm nội dung lỗi (nếu có) để dễ dò
-        def es = conn.getErrorStream()
-        if (es != null) {
-          def err = new StringBuilder()
-          new BufferedReader(new InputStreamReader(es, &quot;UTF-8&quot;)).eachLine { err.append(it) }
-          log.error(&quot;⚠️ Discord error ${discordCode}: ${err}&quot;)
+        int discordCode = conn.getResponseCode()
+        if (discordCode == 429) {
+          log.error(&quot;❌ Discord rate limit (429). Retry-After: &quot; + conn.getHeaderField(&quot;Retry-After&quot;))
+        } else if (discordCode &gt;= 400) {
+          def es = conn.getErrorStream()
+          if (es != null) {
+            def err = new StringBuilder()
+            new BufferedReader(new InputStreamReader(es, &quot;UTF-8&quot;)).eachLine { err.append(it) }
+            log.error(&quot;⚠️ Discord error ${discordCode}: ${err}&quot;)
+          } else {
+            log.error(&quot;⚠️ Discord error ${discordCode}&quot;)
+          }
         } else {
-          log.error(&quot;⚠️ Discord error ${discordCode}&quot;)
+          log.info(&quot;✅ Alert sent successfully (HTTP &quot; + discordCode + &quot;)&quot;)
         }
-      } else {
-        log.info(&quot;✅ Alert sent successfully&quot;)
+      } catch (Exception ex) {
+        log.error(&quot;❌ Discord send failed: &quot; + ex.getMessage())
+      } finally {
+        if (conn != null) try { conn.disconnect() } catch (ignored) {}
       }
     }
   } catch (Exception e) {
@@ -1762,7 +1806,7 @@ vars.put(&apos;REQ1_MAX&apos;, &apos;3&apos;)      // tối đa 3 lần
 </stringProp>
         </WhileController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[EMS] - [Get Token]" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="[Digital EMS] - [Get Token]" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -3127,84 +3171,128 @@ import java.net.URL
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
+// -------- LẤY THÔNG TIN TỪ SAMPLE --------
 String statusCode   = prev.getResponseCode()
-String responseBody = prev.getResponseDataAsString()   // giữ UTF-8, không parse JSON
+String responseBody = prev.getResponseDataAsString()
+String sampleLabel  = prev.getSampleLabel()
+String sampleUrl    = prev.getUrlAsString()
+String respMsg      = prev.getResponseMessage()
+long   timeMs       = prev.getTime()
 
-// Chỉ gửi cảnh báo nếu KHÔNG phải 2xx
+// -------- HÀM LẤY DANH SÁCH WEBHOOK TỪ PROPS/ENV/VARS --------
+List&lt;String&gt; resolveWebhookList() {
+  def raw = props.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getProperty(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getenv(&apos;DISCORD_WEBHOOK&apos;) ?:
+            vars.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            &apos;&apos;
+  return raw.toString()
+           .split(/[,\r\n]+/)
+           .collect { it?.trim() }
+           .findAll { it }
+}
+
+// -------- CHỈ GỬI KHI KHÔNG PHẢI 2xx --------
 if (statusCode == null || !statusCode.startsWith(&quot;2&quot;)) {
   try {
-    def webhooks = [
-      &quot;https://discord.com/api/webhooks/1400011751889702953/u4GdXdepd62VcgQOcecCPeVkoa1NYWdqU_d0stqGCH0jUiMNIjaKapFmI7Wajp_YMhrW&quot;
-    ]
+    // ====== webhook: lấy từ props/env/vars ======
+    final List&lt;String&gt; webhooks = resolveWebhookList()
+    if (!webhooks || webhooks.isEmpty()) {
+      log.warn(&quot;⚠️ No DISCORD_WEBHOOK provided. Set via -JDISCORD_WEBHOOK, ENV, or JMeter variable.&quot;)
+      return
+    }
 
-    // ---------- format body: xuống dòng + indent 4 spaces (trừ { / }) ----------
-    final String PH = &quot;§COMMA§&quot;             // placeholder cho dấu phẩy trong metadata
+    // ====== THỜI GIAN THEO GIỜ VN ======
+    long endTs = prev.getEndTime()
+    def zid    = java.time.ZoneId.of(&quot;Asia/Ho_Chi_Minh&quot;)
+    def zEnd   = java.time.ZonedDateTime.ofInstant(java.time.Instant.ofEpochMilli(endTs), zid)
+    def fmtDT  = java.time.format.DateTimeFormatter.ofPattern(&quot;HH:mm:ss / dd-MM-yyyy &quot;)
+    String occurTime = zEnd.format(fmtDT)
+    String location  = zid.toString() // &quot;Asia/Ho_Chi_Minh&quot;
+
+    // ====== ĐỊNH DẠNG BODY ĐỂ DỄ ĐỌC TRÊN DISCORD ======
+    final String PH = &quot;§COMMA§&quot;     // placeholder cho dấu phẩy trong metadata
     String safeBody = responseBody ?: &quot;&quot;
 
-    // Bảo vệ block &quot;metadata&quot;: { ... } (đơn cấp) để không xuống dòng bên trong
+    // Bảo vệ block &quot;metadata&quot;: { ... } (đơn cấp)
     safeBody = safeBody.replaceAll(/(&quot;metadata&quot;\s*:\s*\{[^}]*\})/) { m -&gt; m[0].replace(&quot;,&quot;, PH) }
 
-    // Đưa {, } ra dòng riêng + xuống dòng sau dấu phẩy
+    // Xuống dòng sau dấu phẩy, đưa { } ra dòng riêng
     String formatted = safeBody
-      .replaceFirst(/^\s*\{/, &quot;{\n&quot;)        // { ở dòng riêng
-      .replaceAll(&quot;,\\s*&quot;, &quot;,\n&quot;)           // xuống dòng sau dấu phẩy
-      .replaceFirst(/}\s*$/, &quot;\n}&quot;)         // } ở dòng riêng
-      .replace(PH, &quot;,&quot;)                     // khôi phục metadata
+      .replaceFirst(/^\s*\{/, &quot;{\n&quot;)
+      .replaceAll(&quot;,\\s*&quot;, &quot;,\n&quot;)
+      .replaceFirst(/}\s*$/, &quot;\n}&quot;)
+      .replace(PH, &quot;,&quot;)
 
-    // Thụt lề 4 spaces mọi dòng, ngoại trừ dòng chỉ có { hoặc }
+    // Thụt lề 4 spaces mọi dòng, trừ dòng chỉ có { hoặc }
     def sb = new StringBuilder()
     for (String ln : formatted.split(&quot;\\r?\\n&quot;)) {
       String t = ln.trim()
-      if (t == &quot;{&quot; || t == &quot;}&quot;) sb.append(t)
-      else sb.append(&quot;    &quot;).append(ln)
+      if (t == &quot;{&quot; || t == &quot;}&quot;) sb.append(t) else sb.append(&quot;    &quot;).append(ln)
       sb.append(&quot;\n&quot;)
     }
     formatted = sb.toString().trim()
 
-    // Tránh phá code block/mention
+    // Tránh phá code block/mention &amp; cắt bớt nếu dài
     def safeTrim = { String s, int max -&gt;
       s = (s ?: &quot;&quot;).replace(&quot;```&quot;,&quot;`\u200b``&quot;).replace(&quot;@&quot;,&quot;@\u200b&quot;)
       return s.length() &gt; max ? s.substring(0, max) + &quot; …(truncated)&quot; : s
     }
-
     String bodyBlock = &quot;```json\n&quot; + safeTrim(formatted, 1800) + &quot;\n```&quot;
-    // ---------------------------------------------------------------------------
 
-    def payload = [
-      username: &quot;JMeter Alert Bot&quot;,
-      content: &quot;&quot;&quot;🚨 **JMeter Alert:** Test Failed
-**Sampler:** ${prev.getSampleLabel()}
-**URL:** ${prev.getUrlAsString()}
+    // ====== NỘI DUNG THÔNG BÁO ======
+    def content = &quot;&quot;&quot;🚨 **JMeter Alert:** Test Failed
+**Sampler:** ${sampleLabel}
+**URL:** ${sampleUrl}
 **Status Code:** ${statusCode}
-**Response Message:** ${prev.getResponseMessage()}
-**Elapsed:** ${prev.getTime()} ms
+**Response Message:** ${respMsg}
+
+**Occur Time:** ${occurTime}
+**Location:** ${location}
+**Response Time:** ${timeMs} ms
 
 **Response Body:**
 ${bodyBlock}&quot;&quot;&quot;
+
+    def payload = [
+      username: &quot;JMeter Alert Bot&quot;,
+      content : content
     ]
+    byte[] jsonBytes = JsonOutput.toJson(payload).getBytes(&quot;UTF-8&quot;)
 
+    // ====== GỬI TỚI TỪNG WEBHOOK ======
     for (String webhookUrl : webhooks) {
-      HttpURLConnection conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
-      conn.setRequestMethod(&quot;POST&quot;)
-      conn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; charset=UTF-8&quot;)
-      conn.setDoOutput(true)
-      conn.getOutputStream().write(JsonOutput.toJson(payload).getBytes(&quot;UTF-8&quot;))
+      if (!(webhookUrl.toLowerCase().startsWith(&quot;http&quot;))) {
+        log.warn(&quot;⚠️ Skip invalid webhook: ${webhookUrl}&quot;)
+        continue
+      }
+      HttpURLConnection conn = null
+      try {
+        conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
+        conn.setRequestMethod(&quot;POST&quot;)
+        conn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; charset=UTF-8&quot;)
+        conn.setDoOutput(true)
+        conn.getOutputStream().withCloseable { os -&gt; os.write(jsonBytes); os.flush() }
 
-      int discordCode = conn.getResponseCode()
-      if (discordCode == 429) {
-        log.error(&quot;❌ Discord rate limit&quot;)
-      } else if (discordCode &gt;= 400) {
-        // Log thêm nội dung lỗi (nếu có) để dễ dò
-        def es = conn.getErrorStream()
-        if (es != null) {
-          def err = new StringBuilder()
-          new BufferedReader(new InputStreamReader(es, &quot;UTF-8&quot;)).eachLine { err.append(it) }
-          log.error(&quot;⚠️ Discord error ${discordCode}: ${err}&quot;)
+        int discordCode = conn.getResponseCode()
+        if (discordCode == 429) {
+          log.error(&quot;❌ Discord rate limit (429). Retry-After: &quot; + conn.getHeaderField(&quot;Retry-After&quot;))
+        } else if (discordCode &gt;= 400) {
+          def es = conn.getErrorStream()
+          if (es != null) {
+            def err = new StringBuilder()
+            new BufferedReader(new InputStreamReader(es, &quot;UTF-8&quot;)).eachLine { err.append(it) }
+            log.error(&quot;⚠️ Discord error ${discordCode}: ${err}&quot;)
+          } else {
+            log.error(&quot;⚠️ Discord error ${discordCode}&quot;)
+          }
         } else {
-          log.error(&quot;⚠️ Discord error ${discordCode}&quot;)
+          log.info(&quot;✅ Alert sent successfully (HTTP &quot; + discordCode + &quot;)&quot;)
         }
-      } else {
-        log.info(&quot;✅ Alert sent successfully&quot;)
+      } catch (Exception ex) {
+        log.error(&quot;❌ Discord send failed: &quot; + ex.getMessage())
+      } finally {
+        if (conn != null) try { conn.disconnect() } catch (ignored) {}
       }
     }
   } catch (Exception e) {
@@ -3362,19 +3450,34 @@ String sampleUrl    = prev.getUrlAsString()
 String respMsg      = prev.getResponseMessage()
 long   timeMs       = prev.getTime()
 
+// -------- HÀM LẤY DANH SÁCH WEBHOOK TỪ PROPS/ENV/VARS --------
+List&lt;String&gt; resolveWebhookList() {
+  def raw = props.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getProperty(&apos;DISCORD_WEBHOOK&apos;) ?:
+            System.getenv(&apos;DISCORD_WEBHOOK&apos;) ?:
+            vars.get(&apos;DISCORD_WEBHOOK&apos;) ?:
+            &apos;&apos;
+  return raw.toString()
+           .split(/[,\r\n]+/)
+           .collect { it?.trim() }
+           .findAll { it }
+}
+
 // -------- CHỈ GỬI KHI KHÔNG PHẢI 2xx --------
 if (statusCode == null || !statusCode.startsWith(&quot;2&quot;)) {
   try {
-    // ====== webhook (đổi URL của bạn vào đây) ======
-    final List&lt;String&gt; webhooks = [
-      &quot;https://discord.com/api/webhooks/1400011751889702953/u4GdXdepd62VcgQOcecCPeVkoa1NYWdqU_d0stqGCH0jUiMNIjaKapFmI7Wajp_YMhrW&quot;
-    ]
+    // ====== webhook: lấy từ props/env/vars ======
+    final List&lt;String&gt; webhooks = resolveWebhookList()
+    if (!webhooks || webhooks.isEmpty()) {
+      log.warn(&quot;⚠️ No DISCORD_WEBHOOK provided. Set via -JDISCORD_WEBHOOK, ENV, or JMeter variable.&quot;)
+      return
+    }
 
     // ====== THỜI GIAN THEO GIỜ VN ======
     long endTs = prev.getEndTime()
     def zid    = java.time.ZoneId.of(&quot;Asia/Ho_Chi_Minh&quot;)
     def zEnd   = java.time.ZonedDateTime.ofInstant(java.time.Instant.ofEpochMilli(endTs), zid)
-    def fmtDT  = java.time.format.DateTimeFormatter.ofPattern(&quot;HH:mm:ss /dd-MM-yyyy &quot;)
+    def fmtDT  = java.time.format.DateTimeFormatter.ofPattern(&quot;HH:mm:ss / dd-MM-yyyy &quot;)
     String occurTime = zEnd.format(fmtDT)
     String location  = zid.toString() // &quot;Asia/Ho_Chi_Minh&quot;
 
@@ -3408,7 +3511,7 @@ if (statusCode == null || !statusCode.startsWith(&quot;2&quot;)) {
     }
     String bodyBlock = &quot;```json\n&quot; + safeTrim(formatted, 1800) + &quot;\n```&quot;
 
-    // ====== NỘI DUNG THÔNG BÁO (3 dòng tách biệt) ======
+    // ====== NỘI DUNG THÔNG BÁO ======
     def content = &quot;&quot;&quot;🚨 **JMeter Alert:** Test Failed
 **Sampler:** ${sampleLabel}
 **URL:** ${sampleUrl}
@@ -3426,21 +3529,21 @@ ${bodyBlock}&quot;&quot;&quot;
       username: &quot;JMeter Alert Bot&quot;,
       content : content
     ]
-
     byte[] jsonBytes = JsonOutput.toJson(payload).getBytes(&quot;UTF-8&quot;)
 
+    // ====== GỬI TỚI TỪNG WEBHOOK ======
     for (String webhookUrl : webhooks) {
+      if (!(webhookUrl.toLowerCase().startsWith(&quot;http&quot;))) {
+        log.warn(&quot;⚠️ Skip invalid webhook: ${webhookUrl}&quot;)
+        continue
+      }
       HttpURLConnection conn = null
       try {
         conn = (HttpURLConnection) new URL(webhookUrl).openConnection()
         conn.setRequestMethod(&quot;POST&quot;)
         conn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; charset=UTF-8&quot;)
         conn.setDoOutput(true)
-
-        conn.getOutputStream().withCloseable { os -&gt;
-          os.write(jsonBytes)
-          os.flush()
-        }
+        conn.getOutputStream().withCloseable { os -&gt; os.write(jsonBytes); os.flush() }
 
         int discordCode = conn.getResponseCode()
         if (discordCode == 429) {
@@ -3471,7 +3574,7 @@ ${bodyBlock}&quot;&quot;&quot;
           <stringProp name="scriptLanguage">groovy</stringProp>
         </JSR223Listener>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -3509,7 +3612,7 @@ ${bodyBlock}&quot;&quot;&quot;
         </ResultCollector>
         <hashTree/>
         <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-          <stringProp name="ConstantTimer.delay">3000</stringProp>
+          <stringProp name="ConstantTimer.delay">30000</stringProp>
         </ConstantTimer>
         <hashTree/>
       </hashTree>
