@@ -1,0 +1,44 @@
+name: JMeter CI
+
+on:
+  push:
+    paths:
+      - "tests/**"
+      - ".github/workflows/jmeter.yml"
+  pull_request:
+
+jobs:
+  run-jmeter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Download Apache JMeter
+        run: |
+          JM_VERSION=5.6.3
+          curl -sL https://downloads.apache.org/jmeter/binaries/apache-jmeter-$JM_VERSION.tgz -o jmeter.tgz
+          tar -xzf jmeter.tgz
+          echo "$PWD/apache-jmeter-$JM_VERSION/bin" >> $GITHUB_PATH
+
+      - name: Run JMeter (non-GUI)
+        run: |
+          mkdir -p results
+          # ĐỔI đường dẫn .jmx của bạn ở đây
+          jmeter -n \
+            -t tests/Pharmacy_Performance.jmx \
+            -l results/results.jtl \
+            -e -o results/report
+
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jmeter-report
+          path: results/report
