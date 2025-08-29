@@ -3567,7 +3567,7 @@ ${bodyBlock}&quot;&quot;&quot;
       }
     }
   } catch (Exception e) {
-    log.error(&quot;❌ Failed to send Discord alert: &quot; + e.getMessage())
+    log.error(&quot;❌ Failed to send Discord  alert: &quot; + e.getMessage())
   }
 }
 </stringProp>
