@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# JMeter outputs
+*.jtl
+/results*/
+*.log
+jmeter.log
+*.tmp
+*.bak
+
+# Secrets / môi trường
+.env
+secrets*.properties
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+EOF
